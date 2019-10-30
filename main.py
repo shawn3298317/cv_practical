@@ -38,9 +38,7 @@ def find_circle(img, model=None):
         return (0,0,0)
     x = np.array([img[:, :, None]])
     y_pred = model.predict(x, 1)
-    # Fill in this function
     y_pred_2 = y_pred * 200
-    #print(y_pred, y_pred_2)
     return int(y_pred_2[0][0]), int(y_pred_2[0][1]), int(y_pred_2[0][2])
 
 
