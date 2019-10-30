@@ -39,3 +39,9 @@ python train_model.py
 #### Evaluation
 - (Averge over 1000 samples w/t noise level = 2) IOU@0.7: 0.9673 (std\_dev = 0.00642 for 6 experiments)
 
+#### Demonstration
+Yellow line is the true label and red line is the prediction from the cnn network.
+
+![Example 1](img/example_1.png)
+![Example 2](img/example_2.png)
+![Example 3](img/example_3.png)
